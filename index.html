@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Souls</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <img src="./images/header logo.png" alt="Escrito dark souls">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">    
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-jogo" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o jogo</a>
+                    </l i>
+                    <li class="nav-item fw-bold">
+                        <a href="#topicos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Tópicos interessantes</a>
+                    </l i>
+                    <li class="nav-item fw-bold">
+                        <a href="#glossario" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Glossário</a>
+                    </l i>
+                    <li class="nav-item fw-bold">
+                        <a href="#fala-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-jogo">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.jpg" alt="Chefe lothric" class="w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.jpg" alt="Chefe pontifice sulyvahn" class="w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.jpg" alt="Chefe aldrich " class="w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+    
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/jogo.jpg" class="d-block w-100" alt="Foto do jogo">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o jogo</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt iste excepturi quas, aliquid non? Quos harum debitis distinctio at, earum quibusdam illo. Amet eum voluptatibus dolorem atque, suscipit inventore?</p>
+                            <h3 class="section-title">Como <span class="text-colored">adquirir</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, harum doloremque maxime suscipit iure maiores autem. Maxime inventore et quis? Voluptatum quod accusantium aut vero neque doloremque, iusto ratione hic.</p>
+                            <ul class="list-unstyled d-flex">
+                                <li><i class="me-3 fs-5 bi bi-steam"></i></li>
+                                <li><i class="me-3 fs-5 bi bi-playstation"></i></li>
+                                <li><i class="me-3 fs-5 bi bi-xbox"></i></li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="topicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center ">Tópicos <span class="text-colored">interessantes</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/topicos/jogabilidade.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-controller"></i>
+                            Jogabilidade</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum hic voluptate libero ducimus vel rem! Expedita sint unde, consequuntur corporis culpa possimus saepe aliquam illum quaerat perferendis quod minima neque.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/topicos/historia.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-book-half"></i>
+                            História</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum hic voluptate libero ducimus vel rem! Expedita sint unde, consequuntur corporis culpa possimus saepe aliquam illum quaerat perferendis quod minima neque.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/topicos/multiplayer.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Multiplayer</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum hic voluptate libero ducimus vel rem! Expedita sint unde, consequuntur corporis culpa possimus saepe aliquam illum quaerat perferendis quod minima neque.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="glossario" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mb-5 section-title text-center">
+                        Glossário do <span class="text-colored">jogo</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2 mb-3">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#inimigos" class="fw-bold text-start nav-link text-colored active">Inimigos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#armas" class="fw-bold text-start nav-link text-colored">Armas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#armaduras" class="fw-bold text-start nav-link text-colored">Armaduras</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#itens" class="fw-bold text-start nav-link text-colored">Itens</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#npc" class="fw-bold text-start nav-link text-colored">NPC's</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="inimigos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/inimigos/i-gundyr.webp" alt="Iudex Gundyr">
+                                        <h5 class="text-colored fw-bold mt-2">Iudex Gundyr</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/inimigos/jailer.webp" alt="Jailer">
+                                        <h5 class="text-colored fw-bold mt-2">Jailer</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/inimigos/i-gundyr.webp" alt="Iudex Gundyr">
+                                        <h5 class="text-colored fw-bold mt-2">Iudex Gundyr</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/inimigos/jailer.webp" alt="Jailer">
+                                        <h5 class="text-colored fw-bold mt-2">Jailer</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/inimigos/i-gundyr.webp" alt="Iudex Gundyr">
+                                        <h5 class="text-colored fw-bold mt-2">Iudex Gundyr</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/inimigos/jailer.webp" alt="Jailer">
+                                        <h5 class="text-colored fw-bold mt-2">Jailer</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="armas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/anri_sword.png" alt="Anri Sword">
+                                        <h5 class="text-colored fw-bold mt-2">Anri Sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/black_knight_sword.png" alt="Black knight sword">
+                                        <h5 class="text-colored fw-bold mt-2">Black knight sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/anri_sword.png" alt="Anri Sword">
+                                        <h5 class="text-colored fw-bold mt-2">Anri Sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/black_knight_sword.png" alt="Black knight sword">
+                                        <h5 class="text-colored fw-bold mt-2">Black knight sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/anri_sword.png" alt="Anri Sword">
+                                        <h5 class="text-colored fw-bold mt-2">Anri Sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/black_knight_sword.png" alt="Black knight sword">
+                                        <h5 class="text-colored fw-bold mt-2">Black knight sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/anri_sword.png" alt="Anri Sword">
+                                        <h5 class="text-colored fw-bold mt-2">Anri Sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armas/black_knight_sword.png" alt="Black knight sword">
+                                        <h5 class="text-colored fw-bold mt-2">Black knight sword</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>                                                                                  
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="armaduras">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Dark_Set_DaSIII.webp" alt="Dark Set">
+                                        <h5 class="text-colored fw-bold mt-2">Dark Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Knight_Set_DaSIII.webp" alt="Knight Set">
+                                        <h5 class="text-colored fw-bold mt-2">Knight Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Dark_Set_DaSIII.webp" alt="Dark Set">
+                                        <h5 class="text-colored fw-bold mt-2">Dark Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Knight_Set_DaSIII.webp" alt="Knight Set">
+                                        <h5 class="text-colored fw-bold mt-2">Knight Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Dark_Set_DaSIII.webp" alt="Dark Set">
+                                        <h5 class="text-colored fw-bold mt-2">Dark Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Knight_Set_DaSIII.webp" alt="Knight Set">
+                                        <h5 class="text-colored fw-bold mt-2">Knight Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Dark_Set_DaSIII.webp" alt="Dark Set">
+                                        <h5 class="text-colored fw-bold mt-2">Dark Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/armaduras/Knight_Set_DaSIII.webp" alt="Knight Set">
+                                        <h5 class="text-colored fw-bold mt-2">Knight Set</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="itens">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/itens/boss_soul.png" alt="Alma de chefe">
+                                        <h5 class="text-colored fw-bold mt-2">Alma de chefe</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/itens/key.png" alt="Chave">
+                                        <h5 class="text-colored fw-bold mt-2">Chave</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/itens/boss_soul.png" alt="Alma de chefe">
+                                        <h5 class="text-colored fw-bold mt-2">Alma de chefe</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/itens/key.png" alt="Chave">
+                                        <h5 class="text-colored fw-bold mt-2">Chave</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/itens/boss_soul.png" alt="Alma de chefe">
+                                        <h5 class="text-colored fw-bold mt-2">Alma de chefe</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/itens/key.png" alt="Chave">
+                                        <h5 class="text-colored fw-bold mt-2">Chave</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="npc">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/npc/andre.jpg" alt="Ferreiro Andre">
+                                        <h5 class="text-colored fw-bold mt-2">Ferreiro Andre</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/npc/firekeeper.jpg" alt="FireKeeper">
+                                        <h5 class="text-colored fw-bold mt-2">FireKeeper</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fala-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="form-contact">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                                <textarea class="form-control" required id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mt-4">
+                        <div class="row">
+                            <h3 class="section-title  fs-4 text-colored">
+                                <i class="bi bi-bag-fill"></i>
+                                Compre o jogo</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <li><i class="me-3 fs-5 bi bi-steam text-colored"></i></li>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <li><i class="me-3 fs-5 bi bi-playstation text-colored"></i></li>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <li><i class="me-3 fs-5 bi bi-xbox text-colored"></i></li>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <p>&copy; Todos os direitos reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    font-family: 'EB Garamond', serif;
+    color: white;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #161616;
+    border: 2px solid rgb(248, 207, 130);
+    color: white;
+}
+
+#cabecalho img {
+    height: 80px;
+    padding: 0;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: rgb(248, 207, 130);
+}
+
+.section-title {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+
+#sobre-o-jogo,
+#glossario {
+    background-color: #2f2118;
+}
+
+#fala-conosco,
+#topicos {
+    background-color: #161616;
+}
+
+.text-colored {
+    color: rgb(248, 207, 130);
+}
+
+.nav-cardapio .nav-link.active, 
+#fala-conosco button {
+    background-color: #2f2118;
+    color: white;
+    border: 2px solid rgb(248, 207, 130);
+}
+
+.nav-cardapio .nav-link:hover {
+    color: white;
+}
+
+#form-contact input,
+#form-contact textarea {
+    background-color: #161616;
+    color: white;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
